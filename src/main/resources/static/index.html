@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Zenith ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" role="main" aria-label="Zenith Chat application">
+    <h1>Ask Zenith</h1>
+    <textarea id="question" placeholder="Type your question here..." aria-label="Question input"></textarea>
+    <button type="button" onclick="askQuestion()" aria-label="Ask question">Ask</button>
+    <div id="answer" aria-live="polite" aria-atomic="true"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
